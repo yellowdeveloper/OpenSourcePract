@@ -6,7 +6,7 @@ int main()
 {
     pid_t pid; /* could be int */
     int i;
-    pid fork();
+    pid = fork();
     if (pid > 0)
     {
         /* parent */
